@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, Clock, Building2 } from "lucide-react"
 
@@ -31,12 +32,35 @@ export function Hero() {
             backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070')",
           }}
         />
-        <div className="absolute inset-0 bg-background/70" />
+        {/* Logo Watermark */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            src="/logo.avif"
+            alt="Gökler İnşaat Yapı"
+            width={400}
+            height={400}
+            className="opacity-10 object-contain"
+          />
+        </div>
+        <div className="absolute inset-0 bg-background/60" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
         <div className="text-center max-w-4xl mx-auto">
+          {/* Company Logo */}
+          <div className="flex justify-center mb-8">
+            <div className="relative w-32 h-32 sm:w-40 sm:h-40">
+              <Image
+                src="/logo.avif"
+                alt="Gökler İnşaat Yapı"
+                fill
+                className="object-contain drop-shadow-2xl"
+                priority
+              />
+            </div>
+          </div>
+
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-foreground text-balance">
             Güvenilir İnşaat Çözümleri
           </h1>
