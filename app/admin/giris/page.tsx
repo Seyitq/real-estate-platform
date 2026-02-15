@@ -103,14 +103,6 @@ export default function LoginPage() {
                             {loading ? "Giriş yapılıyor..." : "Giriş Yap"}
                         </Button>
                     </form>
-
-                    <div className="mt-6 p-4 bg-secondary/50 rounded-xl">
-                        <p className="text-xs text-muted-foreground text-center">
-                            <strong>Demo Giriş Bilgileri:</strong><br />
-                            E-posta: admin@goklerinsaat.com<br />
-                            Şifre: admin123
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>

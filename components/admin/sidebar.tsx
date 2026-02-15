@@ -18,6 +18,7 @@ import {
     Menu,
     X,
     ChevronDown,
+    Image as ImageIcon,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -25,6 +26,7 @@ const navigation = [
     { name: "Dashboard", href: "/admin", icon: LayoutDashboard },
     { name: "Blog Yazıları", href: "/admin/blog", icon: FileText },
     { name: "Projeler", href: "/admin/projeler", icon: Building2 },
+    { name: "Galeri", href: "/admin/galeri", icon: ImageIcon },
     { name: "Müşteri Yorumları", href: "/admin/yorumlar", icon: MessageSquare },
     { name: "Teklif Talepleri", href: "/admin/teklifler", icon: FileQuestion },
     { name: "İletişim Mesajları", href: "/admin/mesajlar", icon: Mail },
