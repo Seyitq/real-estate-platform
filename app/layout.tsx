@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: "Gökler İnşaat Yapı | Konyadaki En İyi İnşaat Firması",
     template: '%s | Gökler İnşaat Yapı'
   },
-  description: 'Gökler İnşaat Yapı - Konya, Türkiye'de güvenilir inşaat firması.Evler, villalar ve konut projelerini kaliteli işçilik ve güvenilir hizmetle inşa ediyoruz.Konut ve ticari inşaatta 25 yılı aşkın deneyim.',
+  description: "Gökler İnşaat Yapı - Konya, Türkiye'de güvenilir inşaat firması.Evler, villalar ve konut projelerini kaliteli işçilik ve güvenilir hizmetle inşa ediyoruz.Konut ve ticari inşaatta 25 yılı aşkın deneyim.",
   keywords: [
     // Primary English Keywords
     'best construction companies in Konya Turkey',
@@ -48,12 +48,12 @@ export const metadata: Metadata = {
     url: 'https://goklerinsaatyapi.com',
     siteName: 'Gökler İnşaat Yapı',
     title: 'Gökler İnşaat Yapı | Konyadaki En İyi İnşaat Firması',
-    description: 'Gökler İnşaat Yapı - Konya, Türkiye'de güvenilir inşaat firması.Evler, villalar ve konut projelerini kaliteli işçilik ve güvenilir hizmetle inşa ediyoruz.Konut ve ticari inşaatta 25 yılı aşkın deneyim.',
+    description: "Gökler İnşaat Yapı - Konya, Türkiye'de güvenilir inşaat firması.Evler, villalar ve konut projelerini kaliteli işçilik ve güvenilir hizmetle inşa ediyoruz.Konut ve ticari inşaatta 25 yılı aşkın deneyim.",
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gökler İnşaat Yapı | Konyadaki En İyi İnşaat Firması',
-    description: 'Gökler İnşaat Yapı - Konya, Türkiye'de güvenilir inşaat firması.Evler, villalar ve konut projelerini kaliteli işçilik ve güvenilir hizmetle inşa ediyoruz.Konut ve ticari inşaatta 25 yılı aşkın deneyim.',
+    description: "Gökler İnşaat Yapı - Konya, Türkiye'de güvenilir inşaat firması.Evler, villalar ve konut projelerini kaliteli işçilik ve güvenilir hizmetle inşa ediyoruz.Konut ve ticari inşaatta 25 yılı aşkın deneyim.",
   },
   robots: {
     index: true,
