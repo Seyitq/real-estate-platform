@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description: "İnşaat sektörü hakkında güncel haberler, rehberler ve faydalı içerikler. Gökler İnşaat Blog.",
 }
 
+// Disable cache - always fetch fresh data from database
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
+
 const categories = ["Tümü", "Sektör", "Tasarım", "Rehber", "Güvenlik", "Teknoloji", "Finans"]
 
 async function getBlogPosts() {

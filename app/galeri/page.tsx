@@ -10,6 +10,10 @@ export const metadata: Metadata = {
     description: "Gökler İnşaat projelerinden fotoğraflar. Tamamladığımız konut, ticari ve endüstriyel projelerin görselleri.",
 }
 
+// Disable cache - always fetch fresh data from database
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
+
 async function getGalleryImages() {
     const gallery = await prisma.gallery.findMany({
         where: { published: true },

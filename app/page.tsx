@@ -8,6 +8,10 @@ import { Testimonials } from "@/components/sections/testimonials"
 import { BlogPreview } from "@/components/sections/blog-preview"
 import { CTA } from "@/components/sections/cta"
 
+// Disable cache for dynamic content (Featured Projects, Testimonials)
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
+
 export default function HomePage() {
   return (
     <>

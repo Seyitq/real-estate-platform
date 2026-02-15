@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   description: "Gökler İnşaat olarak tamamladığımız ve devam eden konut, ticari ve endüstriyel projelerimizi inceleyin.",
 }
 
+// Disable cache - always fetch fresh data from database
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
+
 const categories = ["Tümü", "Konut", "Ticari", "Endüstriyel"]
 
 async function getProjects() {
