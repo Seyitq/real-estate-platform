@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Best Construction Company in Konya, Turkey | Gökler İnşaat Yapı',
+    default: "Gökler İnşaat Yapı | Konyadaki En İyi İnşaat Firması",
     template: '%s | Gökler İnşaat Yapı'
   },
-  description: 'Gökler İnşaat Yapı - Trusted construction company in Konya, Turkey. We build homes, villas & residential projects with quality workmanship and reliable service. 25+ years experience in residential & commercial construction.',
+  description: 'Gökler İnşaat Yapı - Konya, Türkiye'de güvenilir inşaat firması.Evler, villalar ve konut projelerini kaliteli işçilik ve güvenilir hizmetle inşa ediyoruz.Konut ve ticari inşaatta 25 yılı aşkın deneyim.',
   keywords: [
     // Primary English Keywords
     'best construction companies in Konya Turkey',
@@ -47,13 +47,13 @@ export const metadata: Metadata = {
     locale: 'tr_TR',
     url: 'https://goklerinsaatyapi.com',
     siteName: 'Gökler İnşaat Yapı',
-    title: 'Best Construction Company in Konya, Turkey | Gökler İnşaat Yapı',
-    description: 'Trusted construction company in Konya, Turkey. We build homes, villas & residential projects with quality workmanship and reliable service.',
+    title: 'Gökler İnşaat Yapı | Konyadaki En İyi İnşaat Firması',
+    description: 'Gökler İnşaat Yapı - Konya, Türkiye'de güvenilir inşaat firması.Evler, villalar ve konut projelerini kaliteli işçilik ve güvenilir hizmetle inşa ediyoruz.Konut ve ticari inşaatta 25 yılı aşkın deneyim.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Construction Company in Konya, Turkey | Gökler İnşaat Yapı',
-    description: 'Trusted construction company in Konya, Turkey. We build homes, villas & residential projects with quality workmanship.',
+    title: 'Gökler İnşaat Yapı | Konyadaki En İyi İnşaat Firması',
+    description: 'Gökler İnşaat Yapı - Konya, Türkiye'de güvenilir inşaat firması.Evler, villalar ve konut projelerini kaliteli işçilik ve güvenilir hizmetle inşa ediyoruz.Konut ve ticari inşaatta 25 yılı aşkın deneyim.',
   },
   robots: {
     index: true,
