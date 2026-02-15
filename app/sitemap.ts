@@ -3,7 +3,7 @@ import { projects } from "@/lib/data/projects"
 import { blogPosts } from "@/lib/data/blog"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://goklerinsaat.com"
+  const baseUrl = "https://goklerinsaatyapi.com"
 
   // Static pages
   const staticPages = [

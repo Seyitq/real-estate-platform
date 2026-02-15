@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://goklerinsaat.com/sitemap.xml",
+    sitemap: "https://goklerinsaatyapi.com/sitemap.xml",
   }
 }
